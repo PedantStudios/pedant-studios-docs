@@ -1,6 +1,7 @@
 ---
 sidebar_position: 3
 title: Positions
+description: Manage job titles (positions) in WebCenter. Used for time clock entries and payroll-report grouping.
 ---
 
 # Position management
@@ -67,10 +68,6 @@ Click **Reactivate**. The position returns to active status and reappears in dro
 ## Deleting a position
 
 Deletion is irreversible and fails if any employee has the position as their default or if any time clock entries reference it. Most firms should deactivate instead.
-
-## Per-office position lists
-
-Each office can optionally have its own set of positions. By default, all positions are firm-wide. If you want office-specific positions, configure that on the office's edit screen — see **[Offices](./offices)**.
 
 ## Common scenarios
 

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 4
 title: Scheduling
+description: View your published shifts in WebCenter and see cross-firm conflict warnings if your account is linked at multiple firms.
 ---
 
 # Scheduling

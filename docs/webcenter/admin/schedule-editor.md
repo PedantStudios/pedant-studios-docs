@@ -1,6 +1,7 @@
 ---
 sidebar_position: 8
 title: Schedule editor
+description: Manager-side schedule editor in WebCenter — week grid, copy week, draft and publish workflow.
 ---
 
 # Schedule editor

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 3
 title: Mileage
+description: Track mileage in WebCenter — log claims, view history, and understand reimbursement rates and admin overrides.
 ---
 
 # Mileage tracking

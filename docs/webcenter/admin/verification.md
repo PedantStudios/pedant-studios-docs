@@ -1,6 +1,7 @@
 ---
 sidebar_position: 6
 title: Verification
+description: Manager workflow for verifying time clock entries in WebCenter. Use when entries need approval before they count toward payroll.
 ---
 
 # Verification
@@ -76,7 +77,7 @@ If you don't see entries you expect to see, check whether your role's verificati
 If verification is on and managers don't verify regularly, employees get stuck unable to clock out (or in). Two mitigations:
 
 - Make verification a habit at the start or end of each manager's shift.
-- Set up a custom group with all managers and have everyone responsible. (Verification can be done by any user with the permission — it's not assigned per-employee.)
+- Spread responsibility across all managers — verification can be done by any user with the verify permission, so it doesn't have to be one person's job.
 
 If managers are routinely backed up on verification, verification is probably more friction than value for your firm. Turn it off in **Tenant settings**.
 

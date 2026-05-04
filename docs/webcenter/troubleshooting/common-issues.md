@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 title: Common issues
+description: Common WebCenter questions and how to resolve them — sign-in problems, time clock fixes, reports, multi-firm accounts, and billing.
 ---
 
 # Common issues
@@ -15,7 +16,7 @@ Use the **[Forgot password](../getting-started/forgot-password)** flow. The rese
 
 ### I forgot my username
 
-Sign in using your email address instead — both email and username work. Or ask any admin at your firm to look it up under **Admin → Employees**.
+Ask any admin at your firm to look it up under **Admin → Employees**. If you don't have an admin to ask, run the **[Forgot password](../getting-started/forgot-password)** flow with your email — once you can sign in, your username is visible in your account details.
 
 ### "Invalid credentials" but I'm sure my password is right
 
@@ -96,6 +97,7 @@ Check:
 - The employee is **active** (not deactivated).
 - The employee is **assigned to the office** you're filtering by, if you're filtering.
 - The employee actually has time clock entries in the date range.
+- The date range is within your plan's history retention window (90 days on Free, full history on Paid/Trial).
 
 ### CSV export looks weird in Excel
 
@@ -164,7 +166,7 @@ The session idle timeout (default 10 minutes) automatically signs you out after 
 
 ## Still stuck?
 
-Email support from inside the app (**Help → Contact Support**, if available) and include:
+Click **Support** in the navigation to open the in-app contact form, and include:
 
 - What you were trying to do
 - What happened instead

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 11
 title: Billing
+description: WebCenter plan, trial, and subscription management. Covers Free vs. Paid, the 14-day trial, upgrade flow, plan caps, and past-due grace period.
 ---
 
 # Billing

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 title: Overview
+description: WebCenter is a time clock and workforce management application built for tax preparation and bookkeeping firms. Overview of who it's for, what it does, and how it's priced.
 ---
 
 # WebCenter
@@ -22,10 +23,10 @@ If your team grows during tax season and shrinks afterward, and you'd rather not
 - **Time clock** — Web-based clock-in / clock-out with optional rounding, manager verification, and override workflows.
 - **Mileage tracking** — Self-service claims with admin override and per-mile reimbursement reports.
 - **Scheduling** — Week-grid editor for managers, "My Schedule" for employees, and copy-week templates for repeat schedules.
-- **Messaging** — Internal announcements to individuals, offices, or custom groups, plus a Message of the Day shown at login.
+- **Messaging** — Internal announcements to individuals, offices, or role-based groups, plus a Message of the Day shown at login.
 - **Reports** — Time worked, overtime, payroll-ready, mileage, and per-employee history. Every report exports to CSV.
 - **Roles & permissions** — Configurable per-tenant roles with per-employee grant/revoke overrides.
-- **Multi-location** — Multi-office support with per-office time zones, rounding rules, and position lists.
+- **Multi-location** — Multi-office support with per-office clock-rounding rules.
 - **Multi-employer for employees** — One employee account can be linked to multiple firms. Each firm only sees their own data; the other firms are never visible.
 
 ## What WebCenter does **not** do

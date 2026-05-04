@@ -1,6 +1,7 @@
 ---
 sidebar_position: 5
 title: Pay periods
+description: Manage pay periods in WebCenter — view status, lock and unlock, configure period length, and tune overtime thresholds.
 ---
 
 # Pay period management
@@ -72,7 +73,7 @@ Unlocking is occasional and intentional — typically a couple of times a year, 
 
 The shape of pay periods (length, anchor date) is configured under **[Tenant settings](./tenant-settings)**, not on the Pay Periods page itself. From settings you can change:
 
-- **Period length** — typically 14 days (biweekly), but weekly, semi-monthly, and monthly are options.
+- **Period length** — Any whole number of days from 1 to 31. Most firms use 14 (biweekly) or 7 (weekly).
 - **Anchor date** — A known start date that the pay period schedule walks forward and backward from. Changing this realigns all current and future periods.
 
 Changes apply prospectively only — historical periods retain their original boundaries.

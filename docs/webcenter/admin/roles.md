@@ -1,6 +1,7 @@
 ---
 sidebar_position: 4
 title: Roles & permissions
+description: Define roles and customize permissions in WebCenter. Covers default roles, custom roles, and per-employee grants and revokes.
 ---
 
 # Roles & permissions
@@ -52,7 +53,7 @@ When creating or editing a role, capabilities are grouped into categories:
 - **Mileage** — (Mileage availability is also gated by the firm-wide feature toggle and per-employee restriction.)
 - **Scheduling** — View the schedule, edit shifts, publish shifts.
 - **Employees** — Add, edit, remove employees; set per-employee permission grants and revokes; assign roles.
-- **Messaging** — Send to individuals, send to offices, send to custom groups, set the Message of the Day.
+- **Messaging** — Send to individuals, send to offices, send to groups (everyone with a specific role), set the Message of the Day.
 - **Settings** — Edit tenant-wide settings (timezone, rounding, etc.).
 
 Each category has a few specific capabilities. The role edit form lists them with descriptions; check the boxes you want this role to have.

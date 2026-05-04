@@ -1,6 +1,7 @@
 ---
 sidebar_position: 4
 title: Forgot password
+description: Reset your WebCenter password without involving an admin. Enter your email, click the reset link, set a new password.
 ---
 
 # Forgot password
@@ -31,9 +32,9 @@ If you can't sign in, the password reset flow gets you back in without involving
 
 ## If you don't know your username
 
-The reset email is sent to your account email and the reset page lets you set a new password without knowing your username. After resetting, you can sign in with either your username or the email — both work.
+The reset email is sent to your account email and the reset page lets you set a new password without knowing your username — only the email is required.
 
-If you've truly forgotten the username, ask any admin at your firm to look it up from **Admin → Employees**.
+If you've forgotten the username after resetting, ask any admin at your firm to look it up from **Admin → Employees**.
 
 ## Linked accounts
 

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 5
 title: First clock-in
+description: How to clock in and out for the first time, including how rounding and verification affect what you see.
 ---
 
 # Your first clock-in

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 title: Offices
+description: Manage offices (locations) in WebCenter. Covers plan caps, adding, editing, deactivating, and per-office settings.
 ---
 
 # Office management
@@ -73,13 +74,7 @@ To delete: click **Delete** on the office row, confirm. Deletion fails if any em
 
 ## Per-office settings
 
-Each office has its own:
-
-- **Time zone** — Optional override of the firm's default time zone. Useful for multi-state firms. Defaults to the firm-wide setting.
-- **Clock rounding** — Optional override of the firm's default rounding interval. Set to 1 minute to disable rounding for this office.
-- **Position list** — Each office can offer its own set of positions (job titles), or share the firm-wide set. See **[Positions](./positions)**.
-
-These are configured on the office's own edit screen.
+Each office can override the firm's default **clock rounding interval**. Set to 1 minute to effectively disable rounding for that office. This is the only office-specific setting in v1 — time zone and position list are firm-wide. See **[Tenant settings](./tenant-settings)** for firm-wide configuration.
 
 ## Why active office count affects billing
 
@@ -89,7 +84,7 @@ For the exact pricing currently in effect, see **[Billing](./billing)** or open 
 
 ## Common scenarios
 
-**Adding a second office during tax season.** If on Free, start the 14-day trial first to unlock multi-location during peak. If you stay on the trial past 14 days without converting to Paid, the second office is automatically deactivated when you revert to Free.
+**Adding a second office during tax season.** If on Free, start the 14-day trial first to unlock multi-location during peak. If you don't convert to Paid before the trial ends, locations beyond the Free cap are no longer addable but existing data is preserved.
 
 **Closing an office permanently.** Deactivate. Don't delete. Deactivation is reversible, deletion isn't.
 

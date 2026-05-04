@@ -1,6 +1,7 @@
 ---
 sidebar_position: 7
 title: Override
+description: Manager workflow for correcting time clock and mileage entries in WebCenter, including the Force Clock Out action for forgotten clock-outs.
 ---
 
 # Override

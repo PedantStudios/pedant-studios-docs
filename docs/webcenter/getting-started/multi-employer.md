@@ -1,6 +1,7 @@
 ---
 sidebar_position: 7
 title: Working at multiple firms
+description: How linked WebCenter accounts work across firms — one login, switch between firms, with strict privacy boundaries so firms never see each other.
 ---
 
 # Working at multiple firms

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 10
 title: Tenant settings
+description: Firm-wide settings in WebCenter — time zone, clock rounding, max shift length, overtime thresholds, session timeout, feature toggles, mileage rate.
 ---
 
 # Tenant settings
@@ -21,7 +22,7 @@ This affects:
 
 All backend calculations are done in UTC; the time zone setting is for display and period-boundary alignment.
 
-Multi-office firms with offices in different time zones can override this per-office (see **[Offices](./offices)**).
+In v1, the time zone is firm-wide — there is no per-office override. All offices use the same time zone for clock-in/out displays and pay-period boundary calculations.
 
 Changing the firm time zone realigns current and future pay periods. Past periods retain their original boundaries.
 
@@ -104,7 +105,7 @@ The default is typically the current IRS standard mileage rate, but you can set 
 Pay period **shape** is configured here too:
 
 - **Reference date** — A known start date that pay periods walk forward and backward from.
-- **Period length** — Number of days in a pay period (typically 14 for biweekly).
+- **Period length** — Number of days in a pay period. Any whole number from 1 to 31; most firms use 14 (biweekly) or 7 (weekly).
 
 Changing these realigns current and future periods. Past periods retain their original boundaries.
 
@@ -114,7 +115,7 @@ The pay period **management** workflow (locking, unlocking, viewing periods) is 
 
 **Daylight saving time transitions.** No action needed — WebCenter handles DST correctly using the time zone setting. Pay periods crossing a DST boundary are calculated correctly.
 
-**Office in another state.** Override the time zone on the specific office (Offices admin), not on the firm.
+**Office in another state.** All offices share the firm-wide time zone in v1 — there is no per-office time zone override. If multi-time-zone support is critical for your firm, contact support.
 
 **Move from biweekly to weekly pay.** Update the period length to 7 days. Past periods are unaffected; the next period boundary aligns to the new schedule.
 

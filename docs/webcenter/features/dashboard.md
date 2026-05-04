@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 title: Dashboard
+description: Tour of the WebCenter dashboard — clock card, pay period summary, mileage card, and Message of the Day.
 ---
 
 # Dashboard

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 title: Employees
+description: Manage employees in WebCenter — invitations, manual creation, role assignment, per-employee permissions, restrictions, and deactivation.
 ---
 
 # Employee management
@@ -89,7 +90,7 @@ Three feature flags control optional capabilities:
 
 - **Allow comp time** — The employee can accumulate comp time. Sensitive — toggling it shows a confirmation dialog.
 - **Allow messaging** — The employee can send messages.
-- **Allow group / office messaging** — The employee can send to entire offices or to custom groups.
+- **Allow group / office messaging** — The employee can send to entire offices or to groups (everyone with a specific role).
 
 These overlap with role permissions in some cases. If both are off, the employee can't use the feature regardless of role.
 
@@ -104,9 +105,9 @@ There is no "delete employee" — history is preserved for legal and audit reaso
 
 End of tax season is a common time to deactivate seasonal staff in bulk.
 
-## Bulk status updates
+## Deactivating in bulk
 
-Currently, status changes are one at a time on the Members tab. If you have a long list to deactivate (typical at end of season), select multiple rows with the checkboxes and use **Bulk Action → Deactivate** at the top of the list. Same pattern for Reactivate.
+There is no bulk-deactivate UI in v1 — status changes are one row at a time. At end of season, this means clicking through the list to deactivate each seasonal employee. If you have many to do at once, contact support — bulk deactivation is a tracked feature request.
 
 ## Invitations tab
 

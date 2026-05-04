@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 title: Confirm your email
+description: Click the WebCenter confirmation link in your email to finish sign-up — set your time zone, choose how to handle existing accounts, and activate your firm.
 ---
 
 # Confirm your email

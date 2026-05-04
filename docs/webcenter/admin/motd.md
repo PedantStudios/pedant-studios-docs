@@ -1,6 +1,7 @@
 ---
 sidebar_position: 9
 title: Message of the Day
+description: Manage WebCenter's Message of the Day — a banner-style announcement shown at login and on the dashboard.
 ---
 
 # Message of the Day (MOTD)

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 title: Time clock
+description: How the WebCenter time clock works — clocking in and out, rounding, history, verification, override, and locked pay periods.
 ---
 
 # Time clock

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 5
 title: Messaging
+description: Send internal messages in WebCenter to individuals, offices, or groups. Includes inbox, outbox, and Message of the Day.
 ---
 
 # Messaging
@@ -23,7 +24,7 @@ From **Messages → Compose**:
 2. **Recipients** — Required. Pick any combination of:
    - **Individual employees** (search by name)
    - **Entire offices** (if your role allows office-level messaging)
-   - **Custom groups** (if your role allows group messaging — groups are firm-defined sets of employees)
+   - **Groups** — every employee with a particular role at your firm (if your role allows group messaging). For example, picking "Manager" as a group sends to everyone whose role is Manager.
 3. **Body** — Required. Use the rich text editor to format with bold, italics, lists, and links. Plain text is fine too.
 4. **Send**.
 
@@ -37,9 +38,9 @@ Three messaging-related capabilities can be granted on a role or per-employee ba
 
 - **Send to individuals** — Pick named employees as recipients.
 - **Send to offices** — Pick an entire office as recipients.
-- **Send to custom groups** — Pick a custom group as recipients.
+- **Send to groups** — Pick all employees with a specific role.
 
-Most non-admin employees have only individual-message permission. Office and group messaging is typically reserved for admins and supervisors.
+Most non-admin employees have only individual-message permission. Office and group (role-based) messaging is typically reserved for admins and supervisors.
 
 If your role doesn't have a permission, the corresponding recipient option is hidden in compose.
 

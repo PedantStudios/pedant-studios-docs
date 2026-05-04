@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 title: Sign up
+description: Create a new firm in WebCenter. The flow uses an email confirmation step before the firm is fully activated.
 ---
 
 # Sign up for WebCenter

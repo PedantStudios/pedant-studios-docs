@@ -1,6 +1,7 @@
 ---
 sidebar_position: 6
 title: Invite your team
+description: Send email invitations to bring your staff into WebCenter. Covers single and bulk invites, role assignment, and pending-invitation management.
 ---
 
 # Invite your team

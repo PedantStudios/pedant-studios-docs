@@ -1,6 +1,7 @@
 ---
 sidebar_position: 6
 title: Reports
+description: Run WebCenter reports — Time Worked, Overtime, Payroll, Mileage, and per-employee history. Every report exports to CSV.
 ---
 
 # Reports

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 3
 title: Accept an invitation
+description: How to accept a WebCenter invitation from your firm — set your username and password, or link to an existing account at another firm.
 ---
 
 # Accept an invitation

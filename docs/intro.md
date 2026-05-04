@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 slug: /intro
+description: Documentation hub for the Pedant Studios product portfolio — start here to find the docs for each product.
 ---
 
 # Welcome to Pedant Studios
