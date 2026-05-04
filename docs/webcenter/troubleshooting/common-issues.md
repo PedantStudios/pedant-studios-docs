@@ -55,7 +55,7 @@ Ask a manager or admin to fix it via **[Override](../admin/override)**. They can
 
 ### I forgot to clock out
 
-Same fix — a manager runs an Override (specifically, a **Force Clock-Out** for shifts still pending) at the correct end time.
+Same fix — a manager runs an Override (specifically, a **Force Clock Out** for shifts still pending) at the correct end time.
 
 ### I tried to clock in but it says I'm already clocked in
 

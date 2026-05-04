@@ -49,19 +49,19 @@ The original (raw) time stays in the database alongside the override. The dashbo
 
 Pay calculations use the effective values.
 
-## Force clock-out
+## Force Clock Out
 
-If an employee has an open shift (clock-in without clock-out) and you want to close it immediately — without waiting for them to come back and clock out themselves — use the **Force Clock-Out** action.
+If an employee has an open shift (clock-in without clock-out) and you want to close it immediately — without waiting for them to come back and clock out themselves — use the **Force Clock Out** action.
 
 1. Pick the employee with the open shift.
-2. Click **Force Clock-Out**.
+2. Click **Force Clock Out**.
 3. Set the clock-out time (typically the time their shift actually ended).
 4. Add a description.
 5. Confirm.
 
 The shift is closed at the time you specified, with the override audit trail attached.
 
-Force clock-out is the standard fix for "they forgot to clock out three days ago."
+Force Clock Out is the standard fix for "they forgot to clock out three days ago."
 
 ## Overriding mileage
 
@@ -123,7 +123,7 @@ You can see the audit trail:
 
 ## Common scenarios
 
-**Employee forgot to clock out yesterday.** Pick the employee → find yesterday's open entry → Force Clock-Out at the appropriate time → reason: "Forgot to clock out".
+**Employee forgot to clock out yesterday.** Pick the employee → find yesterday's open entry → Force Clock Out at the appropriate time → reason: "Forgot to clock out".
 
 **Employee clocked in at 9:00 but was actually here at 8:30.** Override clock-in to 8:30 → reason: "Adjusted to actual arrival time per employee".
 
