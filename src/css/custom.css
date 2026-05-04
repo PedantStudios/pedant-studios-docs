@@ -1,0 +1,27 @@
+/**
+ * Pedant Studios — global styles
+ * Brand palette is a placeholder (indigo) — tune when final visual identity lands.
+ */
+
+:root {
+  --ifm-color-primary: #4338ca;
+  --ifm-color-primary-dark: #3c33b8;
+  --ifm-color-primary-darker: #382fae;
+  --ifm-color-primary-darkest: #2e278f;
+  --ifm-color-primary-light: #5347d0;
+  --ifm-color-primary-lighter: #5a4fd3;
+  --ifm-color-primary-lightest: #756cda;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #818cf8;
+  --ifm-color-primary-dark: #6f7af6;
+  --ifm-color-primary-darker: #6675f6;
+  --ifm-color-primary-darkest: #4a5cf3;
+  --ifm-color-primary-light: #939df9;
+  --ifm-color-primary-lighter: #9ba4f9;
+  --ifm-color-primary-lightest: #b2b9fb;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}

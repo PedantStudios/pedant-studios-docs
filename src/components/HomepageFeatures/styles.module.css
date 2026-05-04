@@ -1,0 +1,36 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 4rem 0;
+  width: 100%;
+}
+
+.sectionHeading {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.productCard {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: var(--ifm-card-border-radius);
+  padding: 1.5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: var(--ifm-card-background-color);
+}
+
+.productStatus {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.productTagline {
+  color: var(--ifm-color-emphasis-700);
+  font-style: italic;
+  margin-bottom: 1rem;
+}
