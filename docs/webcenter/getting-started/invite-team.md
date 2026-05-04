@@ -1,35 +1,74 @@
 ---
-sidebar_position: 2
+sidebar_position: 6
 title: Invite your team
 ---
 
 # Invite your team
 
-> **Stub.** This page will cover the invitation flow, including how employees who already have a WebCenter account at another firm can link rather than re-create.
+Once your firm is set up, the next step is getting your staff on board. WebCenter uses email invitations — admins send an invite, the employee accepts via the link, and they choose their own password.
 
-## Inviting a new employee
+This page covers the early-days "invite your first batch" workflow. For ongoing employee management — editing, deactivating, bulk operations — see **[Employees](../admin/employees)**.
 
-1. Go to **Employees → Invite**.
-2. Enter the employee's email and select their role (Employee, Supervisor, Manager, or Administrator).
-3. Optionally assign them to an office and set their pay rate.
-4. Send the invitation. They'll receive an email with a link to accept.
+## Sending an invitation
 
-## Employees who already have an account
+1. Go to **Admin → Employees**, then click **Invite by Email**.
+2. Fill in:
+   - **Email address** — Or multiple, comma-separated, to invite several people at once.
+   - **Role** — The role they'll start with. You can change this later or use per-employee permission overrides if one person needs something custom.
+   - **First name** *(optional)* — If provided, the invite email greets them by name.
+   - **Office** *(optional)* — Pre-assigns them to an office. They can be reassigned later.
+   - **Position** *(optional)* — Pre-assigns a job title.
+3. Send. WebCenter emails each invitee a unique acceptance link.
 
-If an employee you're inviting already uses WebCenter at another firm, the invitation flow asks them whether to **link** their existing account or **create a new one**.
+## What the invitee sees
 
-- **Link** — Their account spans both firms. They can switch between firms in the app. Each firm only sees their own data; firms never see that the employee works elsewhere.
-- **Create new** — A separate account, completely isolated from any other.
+The recipient gets an email pointing to the **[Accept invitation](./accept-invitation)** page. They:
 
-This is opt-in by design: employees may want to keep side jobs private. WebCenter never auto-links accounts.
+- See your firm's name and the role you assigned
+- Choose to create a new account or link an existing WebCenter account at another firm
+- Set their password
+- Land on their dashboard, signed in
 
-## Roles at a glance
+## Tracking invitations
 
-| Role | Can clock in/out | Can run reports | Can verify time | Can manage employees |
-|------|:---:|:---:|:---:|:---:|
-| Employee | ✓ | – | – | – |
-| Supervisor | ✓ | ✓ | ✓ | – |
-| Manager | ✓ | ✓ | ✓ | – |
-| Administrator | ✓ | ✓ | ✓ | ✓ |
+Pending invites show up under **Admin → Employees → Invitations**. For each one you can:
 
-See [Roles](../admin/roles) for the full permission breakdown.
+- See the email, role, sent date, and expiration date
+- **Resend** if the original got lost
+- **Revoke** if the person is no longer expected
+- See status — Pending, Accepted, Expired, or Revoked
+
+Invitations expire after 7 days. Expired invitations stay on the list for record-keeping; resending generates a fresh link.
+
+## Roles in brief
+
+Most firms start with three or four roles. The simplified view:
+
+| Role | What they can do |
+|---|---|
+| Employee | Clock in and out, view own time clock and mileage, send messages (if enabled) |
+| Supervisor | Everything Employee can, plus verify time clock entries and run office reports |
+| Manager | Everything Supervisor can, plus override (correct) time entries, run all reports |
+| Administrator | Full firm access — manage employees, offices, roles, settings, and billing |
+
+You can also create **custom roles** with any combination of capabilities, and apply per-employee overrides for individual exceptions. See **[Roles & permissions](../admin/roles)** for the full model.
+
+## Bulk invitations
+
+For larger imports, send multiple emails on the same invitation form (comma-separated). Each one becomes a separate invitation in the Invitations list.
+
+If you need to import dozens or hundreds of employees with varying offices, positions, and roles at once, contact support — there's no bulk-import UI in v1, but it's a candidate feature based on demand.
+
+## Already-existing accounts
+
+If you invite someone who already has a WebCenter account at another firm with the same email, the acceptance flow gives them the choice to **link** their existing account (one set of credentials, switch between firms in the app) or **create a new** account (separate identity).
+
+This is opt-in by design — employees may want to keep side-gigs private from day jobs. WebCenter never auto-links accounts.
+
+See **[Working at multiple firms](./multi-employer)** for the employee's perspective.
+
+## Next
+
+- **[First clock-in](./first-clock-in)** — Try the time clock yourself.
+- **[Employees](../admin/employees)** — Ongoing employee management (CRUD, restrictions, bulk operations).
+- **[Roles & permissions](../admin/roles)** — Customize what each role can do.
