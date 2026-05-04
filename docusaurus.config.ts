@@ -36,8 +36,6 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl:
-            'https://github.com/PedantStudios/pedant-studios-docs/tree/main/',
         },
         blog: false,
         theme: {
@@ -64,11 +62,6 @@ const config: Config = {
           position: 'left',
           label: 'Docs',
         },
-        {
-          href: 'https://github.com/PedantStudios',
-          label: 'GitHub',
-          position: 'right',
-        },
       ],
     },
     footer: {
@@ -89,10 +82,6 @@ const config: Config = {
             {
               label: 'Getting Started',
               to: '/docs/intro',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/PedantStudios',
             },
           ],
         },

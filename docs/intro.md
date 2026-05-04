@@ -18,8 +18,8 @@ More products will be added as the portfolio grows.
 Each product's documentation includes a **Troubleshooting** section covering the most common questions. If you can't find what you need:
 
 - **WebCenter users** — see the [WebCenter troubleshooting guide](./webcenter/troubleshooting/common-issues) or contact support from inside the app.
-- **General questions** — open an issue on [GitHub](https://github.com/PedantStudios) or reach out via the contact form on [pedantstudios.com](https://pedantstudios.com).
+- **General questions** — reach out via the contact form on [pedantstudios.com](https://pedantstudios.com).
 
 ## About these docs
 
-These docs are written and maintained alongside each product. If you spot something that's wrong, out of date, or unclear, the **Edit this page** link at the bottom of every page goes straight to the source — pull requests welcome.
+These docs are written and maintained alongside each product. If you spot something that's wrong, out of date, or unclear, let us know via the contact form.

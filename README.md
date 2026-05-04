@@ -42,7 +42,7 @@ Deploys automatically to Vercel on every push to `main`.
 
 ## Contributing
 
-Pull requests welcome. The "Edit this page" link at the bottom of each doc page goes straight to the source on GitHub.
+Pull requests welcome. Edit pages directly in `docs/` and open a PR.
 
 ## License
 
