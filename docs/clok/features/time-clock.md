@@ -1,12 +1,12 @@
 ---
 sidebar_position: 2
 title: Time clock
-description: How the WebCenter time clock works — clocking in and out, rounding, history, verification, override, and locked pay periods.
+description: How the Pedant Clok time clock works — clocking in and out, rounding, history, verification, override, and locked pay periods.
 ---
 
 # Time clock
 
-The time clock is WebCenter's core feature. This page covers the day-to-day mechanics for employees and the supporting concepts you'll bump into — rounding, overrides, verification, and locked pay periods.
+The time clock is Pedant Clok's core feature. This page covers the day-to-day mechanics for employees and the supporting concepts you'll bump into — rounding, overrides, verification, and locked pay periods.
 
 For a quick walkthrough of clocking in for the first time, see **[First clock-in](../getting-started/first-clock-in)**. For the manager-side workflows, see **[Verification](../admin/verification)** and **[Override](../admin/override)**.
 
@@ -32,7 +32,7 @@ You can see all of this on your dashboard's **Pay Period Summary** by hovering a
 
 ## Rounding
 
-WebCenter supports configurable clock rounding. The default for new firms is to round to 15 minutes; admins can change this firm-wide and per-office.
+Clok supports configurable clock rounding. The default for new firms is to round to 15 minutes; admins can change this firm-wide and per-office.
 
 - **Rounding is for display and reporting only.** The actual time is always preserved.
 - The standard pattern is: round down on clock-in, round up on clock-out, both to the nearest interval. (Talk to your admin if you need a different rounding rule.)

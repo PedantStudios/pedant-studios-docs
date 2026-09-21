@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: Verification
-description: Manager workflow for verifying time clock entries in WebCenter. Use when entries need approval before they count toward payroll.
+description: Manager workflow for verifying time clock entries in Pedant Clok. Use when entries need approval before they count toward payroll.
 ---
 
 # Verification

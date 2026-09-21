@@ -1,12 +1,12 @@
 ---
 sidebar_position: 2
 title: Offices
-description: Manage offices (locations) in WebCenter. Covers plan caps, adding, editing, deactivating, and per-office settings.
+description: Manage offices (locations) in Pedant Clok. Covers plan caps, adding, editing, deactivating, and per-office settings.
 ---
 
 # Office management
 
-An "office" in WebCenter is a physical location where work happens. Single-office firms have one; multi-location firms can have many. The Offices admin screen is at **Admin → Offices**.
+An "office" in Pedant Clok is a physical location where work happens. Single-office firms have one; multi-location firms can have many. The Offices admin screen is at **Admin → Offices**.
 
 This is a superuser-only screen — only administrators (or anyone with the `superuser` permission flag) can manage offices.
 
@@ -15,7 +15,7 @@ This is a superuser-only screen — only administrators (or anyone with the `sup
 The number of **active** offices you can have is gated by your plan:
 
 - **Free** — 1 active office.
-- **Trial / Paid** — Unlimited active offices, with graduated per-location pricing on the Paid plan (3+ locations get a volume discount).
+- **Trial / Paid** — Unlimited active offices, with volume-tiered per-location pricing on the Paid plan ($19/location/month for 1–2 locations, $16 for 3–10, $14 for 11+ — all locations bill at your current tier).
 
 If you try to add or reactivate an office past your cap, you'll see a 402 Payment Required error in the dialog with a link to **[Billing](./billing)** to upgrade or start a trial.
 
@@ -41,7 +41,7 @@ If the office is added successfully, it appears in the list as Active and is ava
 
 If your plan caps prevent it, you'll see the upgrade prompt described above.
 
-WebCenter syncs the active location count to Stripe on every add, so per-location subscription billing is updated immediately.
+Clok syncs the active location count to Stripe on every add, so per-location subscription billing is updated immediately.
 
 ## Editing an office
 
@@ -78,13 +78,13 @@ Each office can override the firm's default **clock rounding interval**. Set to 
 
 ## Why active office count affects billing
 
-WebCenter's Paid plan is priced per active location with a graduated volume discount. Adding or reactivating an office increases your subscription quantity in Stripe at the next billing cycle. Deactivating decreases it. Stripe handles proration automatically.
+Clok's Paid plan is priced per active location with volume-tiered pricing: $19/location/month for 1–2 locations, $16 for 3–10, and $14 for 11+. All locations bill at the tier you're in — crossing a threshold reprices every location. Adding or reactivating an office increases your subscription quantity in Stripe at the next billing cycle. Deactivating decreases it. Stripe handles proration automatically.
 
 For the exact pricing currently in effect, see **[Billing](./billing)** or open the in-app billing page.
 
 ## Common scenarios
 
-**Adding a second office during tax season.** If on Free, start the 14-day trial first to unlock multi-location during peak. If you don't convert to Paid before the trial ends, locations beyond the Free cap are no longer addable but existing data is preserved.
+**Adding a second office during tax season.** If on Free, start the 30-day trial first to unlock multi-location during peak. If you don't convert to Paid before the trial ends, locations beyond the Free cap are no longer addable but existing data is preserved.
 
 **Closing an office permanently.** Deactivate. Don't delete. Deactivation is reversible, deletion isn't.
 

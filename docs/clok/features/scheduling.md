@@ -1,12 +1,12 @@
 ---
 sidebar_position: 4
 title: Scheduling
-description: View your published shifts in WebCenter and see cross-firm conflict warnings if your account is linked at multiple firms.
+description: View your published shifts in Pedant Clok and see cross-firm conflict warnings if your account is linked at multiple firms.
 ---
 
 # Scheduling
 
-WebCenter has a lightweight scheduling feature for firms whose managers want to plan shifts in advance and publish them for staff to see. This page covers the **employee** experience — viewing your shifts. For the manager-side editor, see **[Schedule editor](../admin/schedule-editor)**.
+Pedant Clok has a lightweight scheduling feature for firms whose managers want to plan shifts in advance and publish them for staff to see. This page covers the **employee** experience — viewing your shifts. For the manager-side editor, see **[Schedule editor](../admin/schedule-editor)**.
 
 ## Where you see your schedule
 
@@ -26,7 +26,7 @@ If you have no upcoming shifts, you'll see an empty state — your manager hasn'
 
 Managers create shifts as **drafts** first; drafts aren't visible to employees. When the manager **publishes** a shift (or publishes the whole week at once), it appears on your schedule.
 
-If your manager mentions a shift you don't see, it's probably still in draft. Once they publish, it'll show up. WebCenter does not notify you about new shifts in v1; check the schedule page or your messages.
+If your manager mentions a shift you don't see, it's probably still in draft. Once they publish, it'll show up. Clok does not notify you about new shifts in v1; check the schedule page or your messages.
 
 ## Cross-firm conflict warnings
 
@@ -40,11 +40,11 @@ What the conflict warning shows:
 - Which firms the conflicts are with (only their names — no shift detail)
 - A note that you should resolve the conflict with one or both managers
 
-The warning is informational. WebCenter doesn't unilaterally cancel any shift; it just makes the overlap visible so you can sort it out.
+The warning is informational. Clok doesn't unilaterally cancel any shift; it just makes the overlap visible so you can sort it out.
 
 ## What scheduling does and doesn't do in v1
 
-WebCenter's scheduling in v1 is intentionally minimal. It does:
+Clok's scheduling in v1 is intentionally minimal. It does:
 
 - Let managers create, edit, and publish shifts on a week grid
 - Let managers copy a week's worth of shifts to another week (a templating shortcut)
@@ -67,7 +67,7 @@ Talk to your manager. Schedule edits are made through the **[Schedule editor](..
 
 ## What if I'm scheduled but didn't agree to the shift?
 
-WebCenter does not have an "accept shift" workflow in v1. The schedule reflects what your manager has assigned; if you disagree, talk to them. Reading the schedule is not consent or commitment.
+Clok does not have an "accept shift" workflow in v1. The schedule reflects what your manager has assigned; if you disagree, talk to them. Reading the schedule is not consent or commitment.
 
 ## Mobile and tablet
 

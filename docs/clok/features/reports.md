@@ -1,12 +1,12 @@
 ---
 sidebar_position: 6
 title: Reports
-description: Run WebCenter reports — Time Worked, Overtime, Payroll, Mileage, and per-employee history. Every report exports to CSV.
+description: Run Pedant Clok reports — Time Worked, Overtime, Payroll, Mileage, and per-employee history. Every report exports to CSV.
 ---
 
 # Reports
 
-Reports are the bridge between the time you've tracked in WebCenter and the payroll and accounting tools that consume that data. Every report supports CSV export, with column layouts pre-configured for common payroll providers.
+Reports are the bridge between the time you've tracked in Pedant Clok and the payroll and accounting tools that consume that data. Every report supports CSV export, with column layouts pre-configured for common payroll providers.
 
 Reports are available to anyone with the **time clock reports** permission — typically supervisors, managers, and administrators.
 
@@ -52,11 +52,11 @@ Per-employee weekly hours with color coding:
 - **Yellow** — Between warning and critical thresholds
 - **Red** — At or above the critical threshold
 
-The thresholds are set firm-wide under **[Tenant settings](../admin/tenant-settings)**. They're soft warnings — WebCenter doesn't prevent clock-ins past the threshold.
+The thresholds are set firm-wide under **[Tenant settings](../admin/tenant-settings)**. They're soft warnings — Clok doesn't prevent clock-ins past the threshold.
 
 The defaults are typically 30 hours/week (warning) and 40 hours/week (critical), but every firm sets their own.
 
-> **Note on multi-firm employees:** This report calculates overtime within your firm only. Hours an employee works at another firm aren't combined here. Under the FLSA, overtime is calculated per-employer for unrelated SMBs — and WebCenter never crosses the firm boundary in any report or export.
+> **Note on multi-firm employees:** This report calculates overtime within your firm only. Hours an employee works at another firm aren't combined here. Under the FLSA, overtime is calculated per-employer for unrelated SMBs — and Clok never crosses the firm boundary in any report or export.
 
 ## Payroll report
 
@@ -106,7 +106,7 @@ Use this when verifying a single person's hours before payroll, or when investig
 
 ## CSV format
 
-WebCenter's CSVs are:
+Clok's CSVs are:
 
 - **UTF-8** with a byte-order mark (BOM), so Excel opens them with correct encoding by default
 - **Comma-delimited** with double-quoted values where commas appear in the data

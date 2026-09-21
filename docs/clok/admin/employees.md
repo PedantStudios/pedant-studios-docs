@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Employees
-description: Manage employees in WebCenter — invitations, manual creation, role assignment, per-employee permissions, restrictions, and deactivation.
+description: Manage employees in Pedant Clok — invitations, manual creation, role assignment, per-employee permissions, restrictions, and deactivation.
 ---
 
 # Employee management
@@ -61,7 +61,7 @@ Click **Edit** on any employee row. The form lets you change:
 - Restrictions
 - Feature flags
 
-Click Save when done. WebCenter warns you about unsaved changes if you navigate away.
+Click Save when done. Pedant Clok warns you about unsaved changes if you navigate away.
 
 Note: usernames are immutable after creation — they can't be changed.
 

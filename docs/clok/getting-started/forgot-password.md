@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: Forgot password
-description: Reset your WebCenter password without involving an admin. Enter your email, click the reset link, set a new password.
+description: Reset your Pedant Clok password without involving an admin. Enter your email, click the reset link, set a new password.
 ---
 
 # Forgot password
@@ -12,8 +12,8 @@ If you can't sign in, the password reset flow gets you back in without involving
 
 1. On the login page, click **Forgot password?**.
 2. Enter the email address associated with your account.
-3. Submit. WebCenter shows a generic "if an account exists, we've sent a link" message regardless of whether the email matches a real account — this is on purpose, so attackers can't enumerate which addresses are signed up.
-4. Check your email for a message with subject **"Reset your WebCenter password"**.
+3. Submit. Pedant Clok shows a generic "if an account exists, we've sent a link" message regardless of whether the email matches a real account — this is on purpose, so attackers can't enumerate which addresses are signed up.
+4. Check your email for a message with subject **"Reset your Pedant Clok password"**.
 5. Click the link in the email.
 6. Enter and confirm your new password (minimum 12 characters).
 7. Sign in with the new password.

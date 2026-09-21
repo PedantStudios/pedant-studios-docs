@@ -1,14 +1,14 @@
 ---
 sidebar_position: 7
 title: Working at multiple firms
-description: How linked WebCenter accounts work across firms — one login, switch between firms, with strict privacy boundaries so firms never see each other.
+description: How linked Pedant Clok accounts work across firms — one login, switch between firms, with strict privacy boundaries so firms never see each other.
 ---
 
 # Working at multiple firms
 
-WebCenter lets one employee account span multiple firms. If you work for more than one firm that uses WebCenter — common during tax season, when many preparers split time between two or more offices — you can use a single login for all of them.
+Pedant Clok lets one employee account span multiple firms. If you work for more than one firm that uses Clok — common during tax season, when many preparers split time between two or more offices — you can use a single login for all of them.
 
-This is opt-in. WebCenter will never link your accounts without your explicit consent. And firms never see that you work at any other firm.
+This is opt-in. Clok will never link your accounts without your explicit consent. And firms never see that you work at any other firm.
 
 ## Why it works this way
 
@@ -23,7 +23,7 @@ The result: employees get a unified experience; firms get a strict tenant bounda
 
 Linking is offered in two places:
 
-- **At sign-up confirmation**, if your email already exists in WebCenter from a different firm.
+- **At sign-up confirmation**, if your email already exists in Clok from a different firm.
 - **When accepting an invitation** to a new firm, if your email already exists.
 
 In both cases, you're shown a choice:
@@ -41,9 +41,9 @@ Switching reloads your dashboard, navigation, and permissions to match the firm 
 
 ## Cross-firm shift conflicts
 
-If you have shifts at two different firms that overlap, WebCenter shows a warning on **your** schedule view (the **My Schedule** page). The warning is **employee-only** — neither firm sees that you have a shift elsewhere.
+If you have shifts at two different firms that overlap, Clok shows a warning on **your** schedule view (the **My Schedule** page). The warning is **employee-only** — neither firm sees that you have a shift elsewhere.
 
-This is the only place WebCenter surfaces cross-firm data, and it only ever appears in the employee-facing UI.
+This is the only place Clok surfaces cross-firm data, and it only ever appears in the employee-facing UI.
 
 ## What firms cannot see
 
@@ -83,7 +83,7 @@ Not through the UI in v1. Contact support.
 No. The firm sees only their own employee record for you. Linkage is invisible to them.
 
 **Q: If I'm clocked in at Firm A, can I clock in at Firm B simultaneously?**
-WebCenter warns you on the dashboard if you try to clock in at Firm B while clocked in at Firm A — but it doesn't prevent it, since legitimate cases exist (forgot to clock out at one firm). The warning is employee-only.
+Clok warns you on the dashboard if you try to clock in at Firm B while clocked in at Firm A — but it doesn't prevent it, since legitimate cases exist (forgot to clock out at one firm). The warning is employee-only.
 
 **Q: What about mileage if I drove between firms?**
-Each firm reimburses for mileage you incurred for that firm's work. Log the mileage at the firm whose work it was for. WebCenter doesn't allocate or split mileage across firms.
+Each firm reimburses for mileage you incurred for that firm's work. Log the mileage at the firm whose work it was for. Clok doesn't allocate or split mileage across firms.

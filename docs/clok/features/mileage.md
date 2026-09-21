@@ -1,12 +1,12 @@
 ---
 sidebar_position: 3
 title: Mileage
-description: Track mileage in WebCenter — log claims, view history, and understand reimbursement rates and admin overrides.
+description: Track mileage in Pedant Clok — log claims, view history, and understand reimbursement rates and admin overrides.
 ---
 
 # Mileage tracking
 
-If your work involves driving — between client sites, between offices, or for errands — WebCenter can track miles for reimbursement. The feature is opt-in per firm; if your firm doesn't reimburse mileage, the mileage card is hidden from your dashboard.
+If your work involves driving — between client sites, between offices, or for errands — Pedant Clok can track miles for reimbursement. The feature is opt-in per firm; if your firm doesn't reimburse mileage, the mileage card is hidden from your dashboard.
 
 ## When the feature is available
 
@@ -71,7 +71,7 @@ The per-mile reimbursement rate is a firm-wide setting (typically the current IR
 
 ## Why no GPS or auto-tracking?
 
-WebCenter's mileage feature is intentionally manual: you enter miles and a description. There's no automatic GPS tracking, no automatic odometer reading, no integration with mapping tools. Two reasons:
+Clok's mileage feature is intentionally manual: you enter miles and a description. There's no automatic GPS tracking, no automatic odometer reading, no integration with mapping tools. Two reasons:
 
 - **Simplicity for tax-and-bookkeeping use cases.** Miles for these firms are mostly trip-based, not continuous fleet driving.
 - **Privacy.** Continuous location tracking changes the trust model significantly. If your firm needs that capability, it's a different product fit.

@@ -1,12 +1,12 @@
 ---
 sidebar_position: 5
 title: Pay periods
-description: Manage pay periods in WebCenter — view status, lock and unlock, configure period length, and tune overtime thresholds.
+description: Manage pay periods in Pedant Clok — view status, lock and unlock, configure period length, and tune overtime thresholds.
 ---
 
 # Pay period management
 
-A pay period is a fixed-length window of time over which hours are summed for payroll. WebCenter handles biweekly periods by default, with configurable length and anchor date. Pay periods are managed at **Admin → Pay Periods**.
+A pay period is a fixed-length window of time over which hours are summed for payroll. Pedant Clok handles biweekly periods by default, with configurable length and anchor date. Pay periods are managed at **Admin → Pay Periods**.
 
 ## What's on the page
 
@@ -39,7 +39,7 @@ You can keep periods unlocked indefinitely if you don't run a strict payroll cyc
 
 1. Go to **Admin → Pay Periods**.
 2. On the period you want to lock, click **Lock Period**.
-3. WebCenter checks for issues:
+3. Clok checks for issues:
    - **Incomplete shifts** — Clock-ins without matching clock-outs. Shown as a warning, not a block.
    - **Long shifts** — Shifts exceeding your firm's max-shift-length setting (typically 15 hours). Shown as a warning.
 4. The confirmation dialog lists any warnings. You can:
@@ -80,7 +80,7 @@ Changes apply prospectively only — historical periods retain their original bo
 
 ## Max shift length
 
-Set under **[Tenant settings](./tenant-settings)**. Used by the lock workflow to warn about unusually long shifts (e.g., > 15 hours), which usually indicate a forgotten clock-out. The value is a soft warning — WebCenter doesn't prevent long shifts, just flags them at lock time.
+Set under **[Tenant settings](./tenant-settings)**. Used by the lock workflow to warn about unusually long shifts (e.g., > 15 hours), which usually indicate a forgotten clock-out. The value is a soft warning — Clok doesn't prevent long shifts, just flags them at lock time.
 
 ## Overtime thresholds
 

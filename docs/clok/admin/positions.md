@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Positions
-description: Manage job titles (positions) in WebCenter. Used for time clock entries and payroll-report grouping.
+description: Manage job titles (positions) in Pedant Clok. Used for time clock entries and payroll-report grouping.
 ---
 
 # Position management

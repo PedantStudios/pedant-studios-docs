@@ -1,7 +1,7 @@
 ---
 sidebar_position: 8
 title: Schedule editor
-description: Manager-side schedule editor in WebCenter — week grid, copy week, draft and publish workflow.
+description: Manager-side schedule editor in Pedant Clok — week grid, copy week, draft and publish workflow.
 ---
 
 # Schedule editor
@@ -108,7 +108,7 @@ Notes are free text — they don't have rich formatting and aren't searchable ac
 
 ## What the editor doesn't do (yet)
 
-WebCenter scheduling in v1 is intentionally minimal:
+Pedant Clok scheduling in v1 is intentionally minimal:
 
 - No shift swap requests between employees
 - No time-off / availability tracking

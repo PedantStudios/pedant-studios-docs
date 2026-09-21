@@ -1,12 +1,12 @@
 ---
 sidebar_position: 6
 title: Invite your team
-description: Send email invitations to bring your staff into WebCenter. Covers single and bulk invites, role assignment, and pending-invitation management.
+description: Send email invitations to bring your staff into Pedant Clok. Covers single and bulk invites, role assignment, and pending-invitation management.
 ---
 
 # Invite your team
 
-Once your firm is set up, the next step is getting your staff on board. WebCenter uses email invitations — admins send an invite, the employee accepts via the link, and they choose their own password.
+Once your firm is set up, the next step is getting your staff on board. Pedant Clok uses email invitations — admins send an invite, the employee accepts via the link, and they choose their own password.
 
 This page covers the early-days "invite your first batch" workflow. For ongoing employee management — editing, deactivating, bulk operations — see **[Employees](../admin/employees)**.
 
@@ -19,14 +19,14 @@ This page covers the early-days "invite your first batch" workflow. For ongoing 
    - **First name** *(optional)* — If provided, the invite email greets them by name.
    - **Office** *(optional)* — Pre-assigns them to an office. They can be reassigned later.
    - **Position** *(optional)* — Pre-assigns a job title.
-3. Send. WebCenter emails each invitee a unique acceptance link.
+3. Send. Clok emails each invitee a unique acceptance link.
 
 ## What the invitee sees
 
 The recipient gets an email pointing to the **[Accept invitation](./accept-invitation)** page. They:
 
 - See your firm's name and the role you assigned
-- Choose to create a new account or link an existing WebCenter account at another firm
+- Choose to create a new account or link an existing Clok account at another firm
 - Set their password
 - Land on their dashboard, signed in
 
@@ -62,9 +62,9 @@ If you need to import dozens or hundreds of employees with varying offices, posi
 
 ## Already-existing accounts
 
-If you invite someone who already has a WebCenter account at another firm with the same email, the acceptance flow gives them the choice to **link** their existing account (one set of credentials, switch between firms in the app) or **create a new** account (separate identity).
+If you invite someone who already has a Clok account at another firm with the same email, the acceptance flow gives them the choice to **link** their existing account (one set of credentials, switch between firms in the app) or **create a new** account (separate identity).
 
-This is opt-in by design — employees may want to keep side-gigs private from day jobs. WebCenter never auto-links accounts.
+This is opt-in by design — employees may want to keep side-gigs private from day jobs. Clok never auto-links accounts.
 
 See **[Working at multiple firms](./multi-employer)** for the employee's perspective.
 

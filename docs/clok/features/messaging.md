@@ -1,12 +1,12 @@
 ---
 sidebar_position: 5
 title: Messaging
-description: Send internal messages in WebCenter to individuals, offices, or groups. Includes inbox, outbox, and Message of the Day.
+description: Send internal messages in Pedant Clok to individuals, offices, or groups. Includes inbox, outbox, and Message of the Day.
 ---
 
 # Messaging
 
-WebCenter has a built-in messaging feature for internal announcements and one-to-one or one-to-many notes. It's not designed to replace email or chat — it's for firm-internal, persistent communications that should live in WebCenter alongside everyone's accounts.
+Pedant Clok has a built-in messaging feature for internal announcements and one-to-one or one-to-many notes. It's not designed to replace email or chat — it's for firm-internal, persistent communications that should live in Clok alongside everyone's accounts.
 
 ## Where messaging lives
 
@@ -28,7 +28,7 @@ From **Messages → Compose**:
 3. **Body** — Required. Use the rich text editor to format with bold, italics, lists, and links. Plain text is fine too.
 4. **Send**.
 
-The send button stays disabled until subject, recipients, and body are all filled in. If you navigate away with unsaved changes, WebCenter warns you so you don't lose the draft.
+The send button stays disabled until subject, recipients, and body are all filled in. If you navigate away with unsaved changes, Clok warns you so you don't lose the draft.
 
 Once sent, the message is in your **Outbox** and in each recipient's **Inbox** immediately.
 
@@ -77,11 +77,11 @@ The compose editor supports:
 - Links
 - Code formatting (for the rare case where it's useful)
 
-WebCenter sanitizes the HTML on submit — pasting from Word, Google Docs, or web pages is fine; styling that won't render in the inbox is stripped.
+Clok sanitizes the HTML on submit — pasting from Word, Google Docs, or web pages is fine; styling that won't render in the inbox is stripped.
 
 ## Message of the Day
 
-Separate from one-to-one messaging, WebCenter has a **Message of the Day (MOTD)** feature: an admin-managed banner shown at login and on the dashboard.
+Separate from one-to-one messaging, Clok has a **Message of the Day (MOTD)** feature: an admin-managed banner shown at login and on the dashboard.
 
 - Plain text (no rich formatting)
 - One active MOTD at a time
@@ -91,14 +91,14 @@ Admins manage the MOTD under **Admin → MOTD**. See **[Message of the Day](../a
 
 ## What messaging does not do
 
-WebCenter messaging is intentionally simple. It does not:
+Clok messaging is intentionally simple. It does not:
 
 - Notify you outside the app (no email or push notification of new messages in v1)
 - Support attachments (text only — for files, use email or a file-sharing tool)
 - Support threaded replies (each message is a standalone send)
 - Cross firm boundaries — messages stay within the firm
 
-If you need rich threaded discussion or external notifications, use email. WebCenter messaging is for internal, persistent, in-app communication.
+If you need rich threaded discussion or external notifications, use email. Clok messaging is for internal, persistent, in-app communication.
 
 ## Privacy across firms
 

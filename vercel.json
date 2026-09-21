@@ -4,5 +4,12 @@
   "outputDirectory": "build",
   "framework": "docusaurus-2",
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/docs/webcenter/:path*",
+      "destination": "/docs/clok/:path*",
+      "permanent": true
+    }
+  ]
 }

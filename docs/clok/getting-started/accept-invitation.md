@@ -1,16 +1,16 @@
 ---
 sidebar_position: 3
 title: Accept an invitation
-description: How to accept a WebCenter invitation from your firm — set your username and password, or link to an existing account at another firm.
+description: How to accept a Pedant Clok invitation from your firm — set your username and password, or link to an existing account at another firm.
 ---
 
 # Accept an invitation
 
-If your firm uses WebCenter, an administrator there will send you an invitation by email. Accepting the invitation creates your account at that firm.
+If your firm uses Pedant Clok, an administrator there will send you an invitation by email. Accepting the invitation creates your account at that firm.
 
 ## What you'll receive
 
-An email with subject like **"You've been invited to WebCenter"**, sent from the WebCenter notification address. The email contains:
+An email with subject like **"You've been invited to Pedant Clok"**, sent from the Clok notification address. The email contains:
 
 - Who invited you and to which firm
 - A button or link to accept the invitation
@@ -21,10 +21,10 @@ If you don't see the email, check your spam, junk, and promotions folders. If it
 ## What you'll do
 
 1. Click the **Accept invitation** link in the email.
-2. WebCenter shows you the firm name, the role you've been assigned, and your starting office and position.
+2. Clok shows you the firm name, the role you've been assigned, and your starting office and position.
 3. Choose how to handle your account:
-   - **Create a new account** — Set a username and password (minimum 12 characters). This is what most first-time WebCenter users do.
-   - **Link to an existing account** — If you already use WebCenter at another firm with the same email, you can log in with those credentials and switch between firms. See **[Working at multiple firms](./multi-employer)**.
+   - **Create a new account** — Set a username and password (minimum 12 characters). This is what most first-time Clok users do.
+   - **Link to an existing account** — If you already use Clok at another firm with the same email, you can log in with those credentials and switch between firms. See **[Working at multiple firms](./multi-employer)**.
 4. Submit. You're signed in and dropped onto the dashboard at your new firm.
 
 ## Username rules
@@ -52,5 +52,5 @@ Invitation links are time-limited and single-use. If yours has expired or been u
 ## After you're in
 
 - **[First clock-in](./first-clock-in)** — Try the time clock.
-- **[Working at multiple firms](./multi-employer)** — If you'll work for more than one WebCenter firm.
+- **[Working at multiple firms](./multi-employer)** — If you'll work for more than one Clok firm.
 - **[Forgot password](./forgot-password)** — If you ever lock yourself out.

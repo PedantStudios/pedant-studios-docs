@@ -1,7 +1,7 @@
 ---
 sidebar_position: 11
 title: Billing
-description: WebCenter plan, trial, and subscription management. Covers Free vs. Paid, the 14-day trial, upgrade flow, plan caps, and past-due grace period.
+description: Pedant Clok plan, trial, and subscription management. Covers Free vs. Paid, the 30-day trial, upgrade flow, plan caps, and past-due grace period.
 ---
 
 # Billing
@@ -10,22 +10,22 @@ The Billing page is at **Admin → Billing**. It's where you see your current pl
 
 ## Plan tiers
 
-WebCenter has two plans, with a 14-day trial available on the Paid plan:
+Pedant Clok has two plans, with a 30-day trial available on the Paid plan:
 
 | Plan | Active locations | Admins | History | Support |
 |---|---|---|---|---|
 | **Free** | 1 | 1 | 90 days | Best-effort |
-| **Trial** | Unlimited | Unlimited | Full | Standard |
-| **Paid** | Unlimited | Unlimited | Full | Priority |
+| **Trial** | Unlimited | Unlimited | Full | Email |
+| **Paid** | Unlimited | Unlimited | Full | Email |
 
-Trial is identical to Paid in terms of features — it's just time-limited (14 days from start) and doesn't require payment information.
+Trial is identical to Paid in terms of features — it's just time-limited (30 days from start) and doesn't require payment information.
 
 ## Plan status
 
 The Billing page header shows your current plan with a status badge:
 
 - **Free** — Default plan. Caps apply.
-- **Trialing** — In a 14-day trial. Trial-end countdown is shown.
+- **Trialing** — In a 30-day trial. Trial-end countdown is shown.
 - **Paid** — Active subscription. Next renewal date is shown.
 - **Past Due** — Payment failed. Tenant has a 7-day grace period before write actions are blocked. Banner shown across the app.
 - **Canceled** — Subscription was canceled. Tenant reverts to Free behavior.
@@ -44,10 +44,10 @@ If you try to add a second office or a second admin while on Free, you'll see a 
 
 ## Starting the trial
 
-The trial gives you Paid features for 14 days, no credit card required.
+The trial gives you Paid features for 30 days, no credit card required.
 
 1. Click **Start Trial**.
-2. Confirm the dialog (which mentions the 14-day duration and what happens when it ends).
+2. Confirm the dialog (which mentions the 30-day duration and what happens when it ends).
 3. The plan switches to Trialing immediately.
 
 During the trial, all Paid-tier limits are unlocked:
@@ -60,27 +60,26 @@ The trial can only be started **once per tenant**. If your firm has already used
 
 ## Trial expiration
 
-About 3 days before the trial expires, WebCenter sends a reminder email to the tenant admin. (This is implemented as a notification — exact wording is in the email itself.)
+About 3 days before the trial expires, Clok sends a reminder email to the tenant admin. (This is implemented as a notification — exact wording is in the email itself.)
 
 At expiration, if no Paid subscription is in place:
 
-- The plan reverts to **Free**.
-- Free caps reapply: 1 active office, 1 admin, 90 days history.
-- Offices beyond the cap are automatically deactivated.
-- Admins beyond the cap retain the role but lose admin capabilities until you upgrade.
-- History older than 90 days is hidden in reports (data isn't deleted; just clamped).
+- The plan reverts to **Free** — your account stays open, and nothing is deleted.
+- Everything you added during the trial is kept: existing offices, admins, and data are grandfathered in.
+- Free caps apply to **new additions**: you can't add offices or admins beyond the Free cap without upgrading.
+- History older than 90 days is hidden in reports (data isn't deleted; just clamped). Upgrading restores full history.
 
-Upgrade to Paid before expiration to avoid the cap reapplication.
+Upgrade to Paid before expiration if you want to keep adding past the Free caps without interruption.
 
 ## Upgrading to Paid
 
 1. Click **Upgrade** on the Billing page.
-2. WebCenter redirects you to **Stripe Checkout** (Stripe's hosted payment page).
+2. Clok redirects you to **Stripe Checkout** (Stripe's hosted payment page).
 3. Enter your billing details and payment method.
 4. Confirm.
-5. Stripe redirects back to WebCenter. The Billing page polls and updates to show **Paid** status within a few seconds.
+5. Stripe redirects back to Clok. The Billing page polls and updates to show **Paid** status within a few seconds.
 
-The Paid plan is **per active location**, with a graduated volume discount applied automatically once you hit 3+ locations. The exact pricing is shown in the Stripe Checkout page.
+The Paid plan is **per active location**, volume-tiered: $19/location/month for 1–2 locations, $16 for 3–10, and $14 for 11+. All locations bill at the tier you're in — crossing a threshold reprices every location, not just the ones past it. The exact pricing is shown in the Stripe Checkout page.
 
 You can upgrade from Free or from Trial. Upgrading from Trial cancels the trial countdown immediately and starts the paid subscription.
 
@@ -140,7 +139,7 @@ Data isn't deleted at 90 days — it's just hidden from queries on the Free plan
 
 ## What's not in the Billing page
 
-WebCenter doesn't yet expose:
+Clok doesn't yet expose:
 
 - Per-feature add-ons (everything's bundled in Paid)
 - Multiple billing contacts / split billing
@@ -158,4 +157,4 @@ If any of these matter, contact support — these are tracked as feature request
 
 **Multi-firm employees and billing.** Each firm has its own subscription. An employee linked across firms doesn't affect any individual firm's billing.
 
-**Forgot to upgrade before trial expired.** Click Upgrade on the Billing page. There's no penalty for letting the trial revert; the Paid plan starts fresh from your upgrade time. Offices that were auto-deactivated at trial-end can be reactivated immediately after upgrade.
+**Forgot to upgrade before trial expired.** Click Upgrade on the Billing page. There's no penalty for letting the trial revert; the Paid plan starts fresh from your upgrade time. Everything you set up during the trial is still there — offices, admins, and data are kept when the trial lapses.

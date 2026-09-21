@@ -71,8 +71,8 @@ const config: Config = {
           title: 'Products',
           items: [
             {
-              label: 'WebCenter',
-              to: '/docs/webcenter/overview',
+              label: 'Pedant Clok',
+              to: '/docs/clok/overview',
             },
           ],
         },

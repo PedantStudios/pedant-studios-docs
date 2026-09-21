@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Common issues
-description: Common WebCenter questions and how to resolve them — sign-in problems, time clock fixes, reports, multi-firm accounts, and billing.
+description: Common Pedant Clok questions and how to resolve them — sign-in problems, time clock fixes, reports, multi-firm accounts, and billing.
 ---
 
 # Common issues
@@ -32,7 +32,7 @@ A few possibilities:
 After sign-up, the confirmation email should arrive in 1–2 minutes:
 
 - Check spam, junk, and promotions folders.
-- Search for "WebCenter" or the sender's email.
+- Search for "Pedant Clok" or the sender's email.
 - Verify the email address you typed on the sign-up form. If wrong, sign up again with the correct address.
 - Not arriving at all? Try a different email address (some corporate spam filters block transactional email).
 
@@ -101,14 +101,14 @@ Check:
 
 ### CSV export looks weird in Excel
 
-WebCenter's CSVs are UTF-8 with a byte-order mark, which Excel handles correctly by default. If you're seeing corrupted characters:
+Clok's CSVs are UTF-8 with a byte-order mark, which Excel handles correctly by default. If you're seeing corrupted characters:
 
 - Open Excel first, then **Data → From Text** and explicitly select **UTF-8**.
 - Try opening in Google Sheets or another tool that handles UTF-8 BOM more reliably.
 
 ### A pay period I expected is missing from the report
 
-The Free plan limits report data to the **last 90 days**. Older data is hidden but not deleted. Upgrade to Paid (or start the 14-day trial) to access full history.
+The Free plan limits report data to the **last 90 days**. Older data is hidden but not deleted. Upgrade to Paid (or start the 30-day trial) to access full history.
 
 ### "Locked" pay periods are read-only — what if I need to fix one?
 
@@ -120,13 +120,13 @@ An admin can **unlock** a locked period (with a reason that goes to the audit lo
 
 Use the firm picker in the top navigation. Each switch reloads the dashboard for that firm. Your previously-active firm doesn't see anything about the switch.
 
-### Can my firm see that I work elsewhere on WebCenter?
+### Can my firm see that I work elsewhere on Clok?
 
-No. The firm-boundary is enforced at the database layer. Firms see only their own data — they don't see your accounts at other firms, your hours, or anything else. The only place WebCenter surfaces cross-firm data is your **own** schedule view, where overlapping shifts at different firms are flagged for you to resolve.
+No. The firm-boundary is enforced at the database layer. Firms see only their own data — they don't see your accounts at other firms, your hours, or anything else. The only place Clok surfaces cross-firm data is your **own** schedule view, where overlapping shifts at different firms are flagged for you to resolve.
 
 See **[Working at multiple firms](../getting-started/multi-employer)** for the full privacy model.
 
-### I have two accounts at WebCenter that I'd like to merge
+### I have two accounts at Clok that I'd like to merge
 
 Linking happens at sign-up confirmation or invitation acceptance. Once accounts are separate, the UI doesn't merge them. Contact support — manual merging is possible but requires help.
 
@@ -134,7 +134,7 @@ Linking happens at sign-up confirmation or invitation acceptance. Once accounts 
 
 ### I added an office and got a "402 Payment Required" error
 
-You're on the Free plan, which is limited to 1 office. Either start the 14-day trial or upgrade to Paid. See **[Billing](../admin/billing)**.
+You're on the Free plan, which is limited to 1 office. Either start the 30-day trial or upgrade to Paid. See **[Billing](../admin/billing)**.
 
 ### My subscription says "Past Due"
 

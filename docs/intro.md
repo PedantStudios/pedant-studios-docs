@@ -10,7 +10,7 @@ Pedant Studios builds small, focused software for people who care about the deta
 
 ## Products
 
-- **[WebCenter](./webcenter/overview)** — Time clock and workforce management for tax preparation and bookkeeping firms. *(Beta)*
+- **[Pedant Clok](./clok/overview)** — Time clock and workforce management for tax preparation and bookkeeping firms. *(Beta)*
 
 More products will be added as the portfolio grows.
 
@@ -18,7 +18,7 @@ More products will be added as the portfolio grows.
 
 Each product's documentation includes a **Troubleshooting** section covering the most common questions. If you can't find what you need:
 
-- **WebCenter users** — see the [WebCenter troubleshooting guide](./webcenter/troubleshooting/common-issues) or contact support from inside the app.
+- **Clok users** — see the [Clok troubleshooting guide](./clok/troubleshooting/common-issues) or contact support from inside the app.
 - **General questions** — reach out via the contact form on [pedantstudios.com](https://pedantstudios.com).
 
 ## About these docs

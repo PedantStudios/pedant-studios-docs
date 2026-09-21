@@ -9,7 +9,7 @@ Published at: **[docs.pedantstudios.com](https://docs.pedantstudios.com)**
 ```
 docs/
   intro.md                # Pedant Studios overview
-  webcenter/              # WebCenter product docs
+  clok/                   # Pedant Clok product docs
     overview.md
     getting-started/
     features/

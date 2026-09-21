@@ -1,12 +1,12 @@
 ---
 sidebar_position: 10
 title: Tenant settings
-description: Firm-wide settings in WebCenter — time zone, clock rounding, max shift length, overtime thresholds, session timeout, feature toggles, mileage rate.
+description: Firm-wide settings in Pedant Clok — time zone, clock rounding, max shift length, overtime thresholds, session timeout, feature toggles, mileage rate.
 ---
 
 # Tenant settings
 
-Tenant settings are the firm-wide configuration for WebCenter — time zone, time clock rounding, overtime thresholds, feature toggles, and similar. These apply to your whole firm and affect every employee.
+Tenant settings are the firm-wide configuration for Pedant Clok — time zone, time clock rounding, overtime thresholds, feature toggles, and similar. These apply to your whole firm and affect every employee.
 
 Settings are at **Admin → Settings**. This is a superuser-only page.
 
@@ -66,7 +66,7 @@ This doesn't affect anything except report coloring — it doesn't gate clock-in
 
 The threshold above which the Overtime report colors a row red. Default is typically 40.
 
-Both the warning and critical thresholds are soft — set them according to your firm's policy. Federal overtime is per-employer for unrelated SMBs; WebCenter doesn't combine hours across firms in any report.
+Both the warning and critical thresholds are soft — set them according to your firm's policy. Federal overtime is per-employer for unrelated SMBs; Clok doesn't combine hours across firms in any report.
 
 ## Session idle timeout
 
@@ -113,7 +113,7 @@ The pay period **management** workflow (locking, unlocking, viewing periods) is 
 
 ## Common scenarios
 
-**Daylight saving time transitions.** No action needed — WebCenter handles DST correctly using the time zone setting. Pay periods crossing a DST boundary are calculated correctly.
+**Daylight saving time transitions.** No action needed — Clok handles DST correctly using the time zone setting. Pay periods crossing a DST boundary are calculated correctly.
 
 **Office in another state.** All offices share the firm-wide time zone in v1 — there is no per-office time zone override. If multi-time-zone support is critical for your firm, contact support.
 

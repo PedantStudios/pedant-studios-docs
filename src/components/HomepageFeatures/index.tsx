@@ -14,7 +14,7 @@ type ProductItem = {
 
 const Products: ProductItem[] = [
   {
-    title: 'WebCenter',
+    title: 'Pedant Clok',
     tagline: 'Time clock & workforce management',
     description: (
       <>
@@ -22,7 +22,7 @@ const Products: ProductItem[] = [
         for tax preparation and bookkeeping firms.
       </>
     ),
-    href: '/docs/webcenter/overview',
+    href: '/docs/clok/overview',
     status: 'beta',
   },
 ];

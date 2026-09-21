@@ -1,18 +1,18 @@
 ---
 sidebar_position: 4
 title: Roles & permissions
-description: Define roles and customize permissions in WebCenter. Covers default roles, custom roles, and per-employee grants and revokes.
+description: Define roles and customize permissions in Pedant Clok. Covers default roles, custom roles, and per-employee grants and revokes.
 ---
 
 # Roles & permissions
 
-Roles are how WebCenter groups capabilities for employees. Each employee has one role; the role determines a default set of capabilities. Per-employee overrides let you customize for individuals when needed.
+Roles are how Pedant Clok groups capabilities for employees. Each employee has one role; the role determines a default set of capabilities. Per-employee overrides let you customize for individuals when needed.
 
 Roles are managed at **Admin → Roles**. This is a superuser-only screen.
 
 ## Three layers, one effective set
 
-WebCenter combines three layers to compute what each employee can do:
+Clok combines three layers to compute what each employee can do:
 
 1. **Role** — Each employee has one role with a set of default capabilities.
 2. **Per-employee grants** — Specific capabilities added on top of the role's defaults.
@@ -83,7 +83,7 @@ You can't edit the Administrator role — it always has full access by design.
 
 ## Deleting a role
 
-Click **Delete**. WebCenter checks whether the role is in use:
+Click **Delete**. Clok checks whether the role is in use:
 
 - If any employee has this role, deletion fails with a count: "This role is assigned to N employees and M pending invitations. Reassign them first."
 - If the role is unused, it's deleted.
