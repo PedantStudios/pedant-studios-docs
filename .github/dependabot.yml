@@ -1,0 +1,60 @@
+# Dependabot version updates.
+# Security updates are enabled separately in the repo's Security settings.
+# Docs: https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+version: 2
+updates:
+  # Docusaurus site — the only npm manifest in the repo (root).
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 10
+    commit-message:
+      prefix: chore(deps)
+      prefix-development: chore(deps-dev)
+    # Grouping keeps related packages moving in lock-step and cuts PR noise.
+    # A dependency lands in the FIRST group whose patterns match it.
+    # Every group is limited to minor + patch so a major always arrives as
+    # its own PR and is decided on its own.
+    groups:
+      docusaurus:
+        patterns:
+          - "@docusaurus/*"
+        update-types:
+          - minor
+          - patch
+      react:
+        patterns:
+          - react
+          - react-dom
+          - "@types/react"
+          - "@types/react-dom"
+        update-types:
+          - minor
+          - patch
+      # Everything else: one weekly PR for minor + patch bumps.
+      # Major bumps of ungrouped packages still get their own PR.
+      minor-and-patch:
+        patterns:
+          - "*"
+        update-types:
+          - minor
+          - patch
+    ignore:
+      # Majors ignored here are watched by .github/workflows/major-upgrade-watch.yml,
+      # which opens an issue when a newer major appears. Keep its PACKAGES list in sync.
+      # TypeScript 7 is ahead of what Docusaurus 3.x targets — bump it deliberately,
+      # alongside a Docusaurus release that supports it.
+      - dependency-name: typescript
+        update-types:
+          - version-update:semver-major
+
+  # Actions used by .github/workflows/*.yml.
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    commit-message:
+      prefix: chore(deps)
